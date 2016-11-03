@@ -31,6 +31,14 @@ IfIP 112.73.0.0-112.73.255.255; Set Match = "True"
 IfIP 115.214.0.0-115.214.255.255; Set Match = "True"
 IfIP 147.156.0.0-147.156.255.255; Set Match = "True"
 
+# Added 20161026.  Reported abuse of SciFinder by Marty Lindsey - it-security@cas.org - RT ticket 150600       
+# These IPs are from Iran and Turkey.                                                                          
+IfIP 82.222.168.112-82.222.168.119, 88.230.0.0-88.230.255.255, 185.142.234.0-185.142.234.255, 188.229.0.0-188.229.63.255; Set Match = "True"
+
+# Added 20161101.  Reported abuse of SciFinder by Marty Lindsey - it-security@cas.org - RT ticket 151179
+# These IPs are from Iran.
+IfIP 5.212.128.0-5.212.255.255; Set Match = "True"
+
 # Start of maintained list
 ## EZProxy_IP_Blacklist_IFIP.txt
 ## Maintained by Paul Butler at Ball State University
