@@ -3806,7 +3806,10 @@ RejectIP 116.246.18.27
 RejectIP 116.246.19.107
 RejectIP 116.246.19.109
 RejectIP 116.246.19.110
-RejectIP 116.246.19.113
+##
+## 6/13/17 krye disabled per customer request
+##RejectIP 116.246.19.113
+##
 RejectIP 116.246.19.116
 RejectIP 116.246.25.164
 RejectIP 116.247.88.110

@@ -39,6 +39,12 @@ IfIP 82.222.168.112-82.222.168.119, 88.230.0.0-88.230.255.255, 185.142.234.0-185
 # These IPs are from Iran.
 IfIP 5.212.128.0-5.212.255.255; Set Match = "True"
 
+# Added 20170612. Testing unblock of IP in maintained list
+# Jeff
+# krye disabled on 6/13/17 because this line alone does not let patron in.
+# See RT: https://ticket.library.wisc.edu/Ticket/Display.html?id=168747
+##IfIP 116.246.19.113; Set Match = "False"
+
 # Start of maintained list
 ## EZProxy_IP_Blacklist_IFIP.txt
 ## Maintained by Paul Butler at Ball State University
@@ -68,11 +74,8 @@ IFIP 1.186.79.36 ; Set Match = "True"
 IFIP 1.186.192.2 ; Set Match = "True"
 IFIP 1.186.219.146 ; Set Match = "True"
 IFIP 1.187.208.8 ; Set Match = "True"
-<<<<<<< HEAD
-=======
 IFIP 1.188.168.109 ; Set Match = "True"
 IFIP 1.189.88.69 ; Set Match = "True"
->>>>>>> upstream/master
 IFIP 1.189.137.142 ; Set Match = "True"
 IFIP 1.189.165.130 ; Set Match = "True"
 IFIP 1.189.171.139 ; Set Match = "True"
@@ -3878,7 +3881,10 @@ IFIP 116.246.18.27 ; Set Match = "True"
 IFIP 116.246.19.107 ; Set Match = "True"
 IFIP 116.246.19.109 ; Set Match = "True"
 IFIP 116.246.19.110 ; Set Match = "True"
-IFIP 116.246.19.113 ; Set Match = "True"
+##
+## 6/13/17 krye disabled per patron request.
+##IFIP 116.246.19.113 ; Set Match = "True"
+##
 IFIP 116.246.19.116 ; Set Match = "True"
 IFIP 116.246.25.164 ; Set Match = "True"
 IFIP 116.247.88.110 ; Set Match = "True"
