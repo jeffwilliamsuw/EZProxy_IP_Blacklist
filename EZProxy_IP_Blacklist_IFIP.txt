@@ -7,6 +7,7 @@
 #
 IfIP 124.89.77.28, 221.11.72.121, 221.11.73.149, 221.11.74.119, 221.11.73.97, 221.11.73.100, 221.11.72.121, 221.11.72.248, 221.11.73.149, 221.11.72.12, 221.11.73.97; Set Match = "True"
 
+
 # 20150610 Reported abuse of SciFinder by Marty Lindsey - it-security@cas.org
 # IP in China
 IfIP 117.172.24.15; Set Match = "True"
